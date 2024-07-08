@@ -2,6 +2,9 @@
 ## Conduct exploratory data analysis (EDA) to gain deeper insights into the dataset, utilizing MySQL.
 **How many departments are there in the “employees” database?**
 
+**Dataset**: https://tinyurl.com/56nt4vcc
+
+
 ```sql
 SELECT 
     COUNT(DISTINCT dept_no) as number_dept
